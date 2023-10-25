@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #006633;
+            }
+
+            .card {
+                background-color: #ffffff50;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 40%;
+                border-radius: 5px;
+            }
+            .card1 {
+                background-color: #ffffff50;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 40%;
+                border-radius: 5px;
+            }
+            .container1 {
+                padding: 20px;
+            }
+
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: none;
+            }
+        </style>
+        <title>The good tree</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="card1">
+            <div class="container1">
+                <img src="img/ARBMAGICO.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <label for="uname"><b>Nombre de usuario</b></label>
+                <input type="text" placeholder="Ingrese su nombre de usuario" name="uname" required>
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" placeholder="Ingrese su contraseña" name="psw" required>
+
+                <button type="submit">Iniciar sesión</button>
+            </div>
+        </div>
+    </body>
+</html>
