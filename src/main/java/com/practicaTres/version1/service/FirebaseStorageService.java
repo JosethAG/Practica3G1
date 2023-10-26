@@ -17,6 +17,6 @@ public interface FirebaseStorageService {
     //Ubicación donde se encuentra el archivo de configuración Json
     final String rutaJsonFile = "firebase";
     
-    //El nombre del archivo Json
-    final String archivoJsonFile = "arboles-c55fe-firebase-adminsdk-kwptu-149d6792d3.json";
+//    //El nombre del archivo Json
+    final String archivoJsonFile = "arboles-c55fe-firebase-adminsdk-kwptu-49e931b0ab.json";
 }
