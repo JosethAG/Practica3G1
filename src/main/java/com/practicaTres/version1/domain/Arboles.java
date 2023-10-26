@@ -14,8 +14,8 @@ import lombok.Data;
 @Table(name="arboles")
 public class Arboles implements Serializable{//Serealizacion funciona para almacenar ciertos datos en la maquina
     
-    private static final long serialVersionUID = 1L;//para poder hacer el ciclo de la sumatoria del idCategoria
-    @Id //tabla categoria tiene una llave o identificador que va a ser el ID
+    private static final long serialVersionUID = 1L;//para poder hacer el ciclo de la sumatoria del idArboles
+    @Id //tabla arboles tiene una llave o identificador que va a ser el ID
     @GeneratedValue(strategy = GenerationType.IDENTITY)//Los valores generados que tipo de estrategia utilizan, identico = sea igual en la BD y en la clase
     @Column(name="id_arboles")//decir cual es el nombre de la columna de la base de datos  
     private long idArboles;
@@ -30,6 +30,4 @@ public class Arboles implements Serializable{//Serealizacion funciona para almac
         this.descripcion = descripcion;
         this.activo = activo;
     }
-    
-   
 }

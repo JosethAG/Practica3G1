@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.practicaTres.version1.Controller;
 
 import com.practicaTres.version1.domain.Arboles;
@@ -66,6 +62,6 @@ public class ArbolesController {
     public String arbolesModificar(Arboles arboles, Model model) {
         arboles = arbolesService.getArboles(arboles);
         model.addAttribute("arboles", arboles);
-        return "/categoria/modifica";
+        return "/arboles/modifica";
     }
 }
