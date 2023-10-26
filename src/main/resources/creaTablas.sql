@@ -63,3 +63,4 @@ insert into theGoodTree.rol (id_rol, nombre, id_usuario) values
  (1,'ROLE_ADMIN',1), (2,'ROLE_VENDEDOR',1), (3,'ROLE_USER',1),
  (4,'ROLE_VENDEDOR',2), (5,'ROLE_USER',2),
  (6,'ROLE_USER',3);
+
