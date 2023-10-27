@@ -83,7 +83,7 @@
                                     <tbody>
                                         <tr th:each="arboles, contador : ${arboles}">
                                             <td>[[${contador.count}]]</td>
-                                            <td><img src="../../ARBMAGICO.jpg" alt="" width="50px"/></td>
+                                            <td><img id="blah" th:src="@{${arboles.rutaImagen}}" alt="your image" style="width: 250px; height: 200px;" /></td>
                                             <td>[[${arboles.descripcion}]]</td>
                                             <td th:text="${arboles.activo} ? 'Activa' : 'Inactiva'" />
                                             <td><a th:href="@{/arboles/eliminar/}+${arboles.idArboles}"
